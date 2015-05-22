@@ -13,7 +13,8 @@ public class RpsService {
 	//showWinner
 	//승자를 보여주는 로직
 	public String showWinner(int playerVal, int comVal) {
-	int result = playerVal - comVal ;
+	comVal = displayComVal();
+		int result = playerVal - comVal ;
 	//(Math.abs(playerVal - comVal))  //여기서 쓰면 안된다..
 	   String msi = "";
 		switch (result) {
@@ -38,7 +39,6 @@ public class RpsService {
 			*/
 			
 		}
-
 		return msi;
 	}
 	

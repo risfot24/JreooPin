@@ -16,8 +16,6 @@ public class NumberController {
          
 	    nms.input();
 	    nms.check(i);
-	    
-			
 			
 		}
 	
